@@ -52,7 +52,7 @@ def clicar():
 
 # Cria o botão
 tk.Button(
-    viga, text="Ok", bg="blue", fg="white", font=("Arial", 12, "bold"), command=clicar
+    viga, text="Ok", bg="green", fg="white", font=("Arial", 12, "bold"), command=clicar
 ).pack(pady=15)
 
 viga.mainloop()
